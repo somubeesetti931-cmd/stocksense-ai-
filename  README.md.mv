@@ -1,0 +1,55 @@
+# 📈 StockSense AI
+
+AI-Powered Market Signal & Portfolio Assistant for Indian Investors  
+Built for ET AI Hackathon 2026
+
+---
+
+## 🚀 Problem
+
+India has 14+ crore investors, but most:
+- Depend on tips
+- Miss key market signals
+- Lack financial knowledge
+
+---
+
+## 💡 Solution
+
+StockSense AI analyzes stock data and provides:
+- Buy/Sell signals
+- Simple explanations
+- Portfolio insights
+
+---
+
+## ⚙️ Features
+
+- 📊 Real-time stock analysis  
+- 📈 Signal detection (Buy/Sell)  
+- 🧠 Easy-to-understand explanations  
+- 📁 Portfolio analyzer  
+- 📉 Price charts  
+
+---
+
+## 🏗️ Architecture
+
+User Input → Streamlit UI → Data Fetch (yfinance) → Signal Detection → Output
+
+---
+
+## 🛠️ Tech Stack
+
+- Python
+- Streamlit
+- yfinance
+- Pandas
+
+---
+
+## ▶️ How to Run
+
+```bash
+pip install streamlit yfinance pandas
+streamlit run app.py
